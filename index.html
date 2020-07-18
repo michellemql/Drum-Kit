@@ -1,34 +1,41 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
 <head>
   <meta charset="utf-8">
-  <title>Drum Kit</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Game Center</title>
   <!-- Website Logo -->
-  <link rel="icon" href="images/drum3.png">
+  <!-- <link rel="icon" href="images/drum3.png"> -->
+  <link rel="stylesheet" href="styles.css">
 
-  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
 
 <body>
   <div class="container">
-    <h1 id="title">Drum 🥁 Kit</h1>
-    <h3>Try play with <span>mouse</span> or <span>keyboard</span> !</h3>
-    <div class="set">
-      <button class="w drum">w</button>
-      <button class="a drum">a</button>
-      <button class="s drum">s</button>
-      <button class="d drum">d</button>
-      <button class="j drum">j</button>
-      <button class="k drum">k</button>
-      <button class="l drum">l</button>
+    <div class="jumbotron" style="background-color: #fff;">
+      <h1 class="display-4">Welcome to Game Center</h1>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <a href="drumkit.html" >
+        <div class="block drum">
+          <h3 class="title">Drum Kit</h3>
+        </div>
+      </a>
+    </div>
+      <div class="col-md-6">
+        <a href="simon.html">
+          <div class="block simon">
+            <h3 class="title">Simon Game</h3>
+          </div>
+        </a>
+      </div>
     </div>
   </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="index.js" charset="utf-8"></script>
 </body>
-<footer>
-  Made with ❤️ in SF.
-</footer>
 
 </html>
